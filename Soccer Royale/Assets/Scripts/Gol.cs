@@ -1,18 +1,18 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Gol : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   public int scoreValue;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   private void OnCollisionEnter2D(Collision2D col)
+   {
+      if (col.gameObject.tag == "Bola")
+      {
+         GameControler.instance.UpdateScore(scoreValue);
+
+      }
+   }
 }
