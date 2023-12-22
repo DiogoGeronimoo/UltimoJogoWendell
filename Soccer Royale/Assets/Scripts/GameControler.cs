@@ -12,7 +12,7 @@ public class GameControler : MonoBehaviour
     public int score;
     public Text ScoreText;
     public static GameControler instance;
-    public int Gol;
+    
     
 
     void Awake()
