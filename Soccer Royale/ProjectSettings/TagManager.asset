@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Gol
   - Bola
+  - ObjetoPontuavel
+  - Parede
+  - Trave
   layers:
   - Default
   - TransparentFX

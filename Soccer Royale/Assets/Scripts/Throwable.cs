@@ -6,9 +6,13 @@ using UnityEngine;
 
 public class Throwable : MonoBehaviour
 {
+    public float speed = 5f;
     private Vector3 throwVector;
     private Rigidbody2D rig;
     private LineRenderer lrd;
+    public float forcaQuicada = 5f;
+    public float fatorReducao;
+   
 
     void Awake()
     {
@@ -22,11 +26,17 @@ public class Throwable : MonoBehaviour
         SetArrow();
     }
 
+    private void OnMouseDrag()
+    {
+        CalculateThrowVector();
+        SetArrow();
+    }
+
     void CalculateThrowVector()
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 distance = mousePos - this.transform.position;
-        throwVector = -distance.normalized * 100;
+        throwVector =-distance.normalized * 100;
     }
 
     void SetArrow()
@@ -52,6 +62,15 @@ public class Throwable : MonoBehaviour
     {
         rig.AddForce(throwVector);
     }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Se o objeto colidir com uma parede, inverte a velocidade na direção da normal da colisão.
+        if (collision.gameObject.CompareTag("Parede"))
+        {
+            Vector2 normal = collision.contacts[0].normal;
+            rig.velocity = Vector2.Reflect(rig.velocity, normal) * fatorReducao;
+        }
+    }
 
     //abaixo nao serve
     void Start()
@@ -63,5 +82,6 @@ public class Throwable : MonoBehaviour
     void Update()
     {
         
+
     }
 }

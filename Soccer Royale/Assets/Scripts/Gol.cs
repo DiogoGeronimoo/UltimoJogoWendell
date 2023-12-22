@@ -9,9 +9,10 @@ public class Gol : MonoBehaviour
 
    private void OnCollisionEnter2D(Collision2D col)
    {
-      if (col.gameObject.tag == "Bola")
+      if (col.gameObject.tag == "ObjetoPontuavel")
       {
          GameControler.instance.UpdateScore(scoreValue);
+         
 
       }
    }
