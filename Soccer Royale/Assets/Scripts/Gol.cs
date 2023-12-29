@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Gol : MonoBehaviour
-{
+{ 
    public int scoreValue;
 
    private void OnCollisionEnter2D(Collision2D col)
@@ -15,5 +15,6 @@ public class Gol : MonoBehaviour
          
 
       }
+      
    }
 }

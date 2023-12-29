@@ -9,6 +9,7 @@ TagManager:
   - ObjetoPontuavel
   - Parede
   - Trave
+  - ObjetoPontuavel1
   layers:
   - Default
   - TransparentFX
