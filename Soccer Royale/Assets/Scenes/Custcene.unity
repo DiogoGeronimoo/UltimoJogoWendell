@@ -161,7 +161,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a5f5153bdd9f21f4e931e8100bb9255b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bea7adce070fb1d4694e9fcadcace9b5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 71e31ecf8c14d3043b79a55bca20213f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30a30972e391286429aa09fa8588917d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 24e840df840487e4197fafff4c5b0ae0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 072ae33dbd579e949af074277955ad57, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e85d38b9374005349931eaef0957af73, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f3d630c97c3fcf34fad9f8ca9bef7585, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1746,8 +1746,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "H\xE1 muito tempo, jogadores jogavam futebol para sua divers\xE3o. Mas
-    um dia, como outro qualquer, surgiu um campeonato chamado Fifa23, onde os competidores
-    tinham que batalhar ou jogar para sobreviver e assim ganhar o pr\xEAmio final."
+    um dia, como outro qualquer, surgiu um campeonato chamado Soccer Royale, onde
+    os competidores tinham que batalhar ou jogar para sobreviver e assim ganhar o
+    pr\xEAmio final."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1862,7 +1863,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7074841e485403c40929d4390c3fcd3f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7ebcfab551570504bb1b8ad22a2c4635, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
